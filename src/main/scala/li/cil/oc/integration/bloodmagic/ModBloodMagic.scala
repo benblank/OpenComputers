@@ -11,5 +11,7 @@ object ModBloodMagic extends ModProxy {
     Driver.add(new DriverMasterRitualStone)
 
     Driver.add(new ConverterBloodOrb)
+    Driver.add(new ConverterDivinationSigil)
+    Driver.add(new ConverterIBindable)
   }
 }
